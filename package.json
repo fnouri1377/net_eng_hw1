@@ -1,0 +1,22 @@
+{
+  "name": "hw1",
+  "version": "1.0.0",
+  "description": "Taklife Avvale Net",
+  "main": "app.js",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "net",
+    "nodejs",
+    "express",
+    "hw1"
+  ],
+  "author": "Fatemeh Nouri",
+  "license": "ISC"
+}
