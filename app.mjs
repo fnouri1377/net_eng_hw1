@@ -10,6 +10,10 @@ var result_poly_json = {
     "polygons": []
 };
 
+app.get('/', (req, res) => {
+    res.send("Hello :) This is my first homework!")
+})
+
 app.get('/gis/testpoint', (req, res) => {
     var {lat, long} = req.query;
     var pt = turf.point([lat, long]);
