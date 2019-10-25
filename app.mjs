@@ -2,7 +2,7 @@ import express from 'express'
 import turf from '@turf/turf'
 
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 app.use(express.json());
 
 var all_poly_list = [];
